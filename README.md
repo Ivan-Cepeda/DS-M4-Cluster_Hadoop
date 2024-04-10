@@ -79,7 +79,7 @@ hdfs dfs -cat input/odisea.tar.gz | zcat | tail -n 20
 ##### 11. Eliminar el archivo en HADOOP
 
 ```
-hdfs dfs –rm –f /user/rawdata/example/odisea.tar.gz
+hdfs dfs -rm -f /user/rawdata/example/odisea.tar.gz
 ```
 
 ##### Plus ejecutar un trabajo en HADOOP
