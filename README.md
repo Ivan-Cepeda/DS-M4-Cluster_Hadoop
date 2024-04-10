@@ -73,7 +73,7 @@ hdfs dfs –ls  input
 ##### 10. Leer las primeras lineas de nuestro archivo en HADOOP
 
 ```
-hdfs dfs -cat  input/odisea.tar.gz | zcat | tail -n 20
+hdfs dfs -cat input/odisea.tar.gz | zcat | tail -n 20
 ```
 
 ##### 11. Eliminar el archivo en HADOOP
