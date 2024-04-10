@@ -67,7 +67,7 @@ hdfs dfs -put input
 ##### 9. Revisar nuestro input directorio en HADOOP
 
 ```
-hdfs dfs –ls  input
+hdfs dfs -ls input
 ```
 
 ##### 10. Leer las primeras lineas de nuestro archivo en HADOOP
