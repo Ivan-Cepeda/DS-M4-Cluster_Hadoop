@@ -90,6 +90,10 @@ hdfs dfs -rm -f /user/root/input/odisea.tar.gz
 ##### Plus ejecutar un trabajo en HADOOP
 
 ```
+./run-wordcount.sh
+```
+##### No funciona - de aquí en adelante
+```
 hadoop jar $HADOOP_HOME/share/hadoop/mapreduce/sources/hadoop-mapreduce-examples-2.7.2-sources.jar org.apache.hadoop.examples.WordCount input output
 ```
 
