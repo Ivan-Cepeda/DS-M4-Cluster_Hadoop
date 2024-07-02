@@ -75,6 +75,11 @@ hdfs dfs -ls input
 ```
 hdfs dfs -cat input/odisea.tar.gz | zcat | head -n 20
 ```
+##### 10.1 Leer entre las lineas 80 y 100
+
+```
+hdfs dfs -cat input/odisea.tar.gz | zcat | sed -n '80,100p'
+```
 
 ##### 11. Eliminar el archivo en HADOOP
 
